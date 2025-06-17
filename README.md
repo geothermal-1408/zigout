@@ -18,7 +18,7 @@ A classic Breakout arcade game implemented in Zig.
 ## Building
 
 ```bash
-zig build-exe main.zig
+zig build
 ```
 
 ## Running
