@@ -29,9 +29,9 @@ zig build
 
 ## Controls
 
-- **Left/Right Arrow Keys** or **A/D**: Move paddle
+- **Left/Right Arrow Keys**: Move paddle
 - **Space**: Start game/Launch ball
-- **Escape/Q**: Quit game
+- **Escape**: Quit game
 
 ## Gameplay
 
