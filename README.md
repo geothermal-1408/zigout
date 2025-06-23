@@ -2,18 +2,19 @@
 
 A classic Breakout arcade game implemented in Zig.
 
+![Demo](/demo-game.gif)
+
 ## Features
 
 - Classic brick-breaking gameplay
 - Paddle controls
 - Ball physics
-- Score tracking
 - Simple, clean implementation
 
 ## Requirements
 
 - Zig compiler (latest stable version recommended)
-- Compatible graphics library (as specified in main.zig)
+- Raylib
 
 ## Building
 
@@ -24,7 +25,7 @@ zig build
 ## Running
 
 ```bash
-./main
+./zig-out/bin/zig-breakout
 ```
 
 ## Controls
@@ -36,13 +37,3 @@ zig build
 ## Gameplay
 
 - Use the paddle to bounce the ball and break all the bricks
-- Don't let the ball fall off the bottom of the screen
-- Clear all bricks to win!
-
-## File Structure
-
-```
-zigout/
-├── main.zig          # Complete game implementation
-└── README.md         # This file
-```
